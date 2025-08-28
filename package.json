@@ -1,0 +1,30 @@
+{
+  "name": "antarctica-gate",
+  "version": "0.0.1",
+  "description": "A tiny satirical JS popup: Are you in Antarctica? None of the Online Safety Acts apply there.",
+  "main": "antarctica-gate.js",
+  "browser": "antarctica-gate.js",
+  "unpkg": "antarctica-gate.js",
+  "jsdelivr": "antarctica-gate.js",
+  "scripts": {
+    "test": "echo \"No tests, just penguins 🐧\" && exit 0"
+  },
+  "keywords": [
+    "antarctica",
+    "compliance",
+    "popup",
+    "satire",
+    "tiny"
+  ],
+  "author": "Codinganovel",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "sideEffects": true,
+  "files": [
+    "antarctica-gate.js",
+    "readme.md",
+    "LICENSE.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
