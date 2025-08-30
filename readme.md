@@ -18,6 +18,7 @@ npm i antarctica-gate
 ## Quick start (CDN)
 
 ```html
+<link rel="stylesheet" href="./antarctica-gate.css"> <!-- optional: import to get improved visuals -->
 <script src="https://unpkg.com/antarctica-gate"></script>
 <script>
   // call it when you want to ask
@@ -30,6 +31,7 @@ npm i antarctica-gate
 ```
 
 This package does not auto-run. Call `AntarcticaGate.open()` to show the prompt. 🐧
+the css is backed in the .js, the file is there if you decide you want to edit it.
 
 ## Usage (bundlers/SSR)
 

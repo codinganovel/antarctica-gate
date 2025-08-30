@@ -1,0 +1,29 @@
+/* antarctica-gate.css - optional dark minimal theme */
+:root{
+  --ant-font: -apple-system, "Segoe UI", Roboto, Inter, "Helvetica Neue", Arial, sans-serif;
+  --ant-bg: rgba(10,14,20,0.95);
+  --ant-text: #e6eef6;
+  --ant-primary: #60a5fa;
+  --ant-danger: #60a5fa;
+  --ant-overlay: rgba(2,6,23,0.75);
+  --ant-radius: 10px;
+  --ant-shadow: 0 8px 24px rgba(2,6,23,0.6);
+}
+.ant-overlay{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:var(--ant-overlay);z-index:9999;backdrop-filter:blur(6px)}
+.ant-card{background:var(--ant-bg);color:var(--ant-text);font-family:var(--ant-font);max-width:420px;padding:1rem;border-radius:var(--ant-radius);box-shadow:var(--ant-shadow);text-align:center;transform-origin:center;animation:ant-pop .16s ease-out;border:1px solid rgba(255,255,255,0.03)}
+@keyframes ant-pop{from{opacity:0;transform:translateY(6px) scale(.995)}to{opacity:1;transform:none}}
+.ant-card h2{margin:0 0 .25rem;font-size:1.125rem;font-weight:600}
+.ant-card p{margin:.25rem 0 1rem;color:var(--ant-text);opacity:.92}
+.ant-actions{display:flex;gap:.5rem;justify-content:center}
+.ant-btn{display:inline-block;border:0;padding:.45rem .85rem;border-radius:8px;cursor:pointer;background:transparent;color:var(--ant-text);transition:transform .08s ease,background-color .12s ease,opacity .12s;outline-offset:3px;border:1px solid rgba(255,255,255,0.04)}
+.ant-btn:hover{opacity:.95}
+.ant-btn:active{transform:translateY(1px)}
+.ant-btn:focus{outline:none;box-shadow:none}
+.ant-btn::-moz-focus-inner{border:0}
+.ant-btn{-webkit-tap-highlight-color:transparent}
+.ant-btn--primary{background:transparent;color:var(--ant-danger);border-color:rgba(248,113,113,0.12)}
+.ant-btn--danger{background:transparent;color:var(--ant-danger);border-color:rgba(248,113,113,0.12)}
+@media (prefers-reduced-motion:reduce){.ant-card{animation:none}}
+@media (prefers-color-scheme:dark){:root{--ant-bg:rgba(6,8,14,0.9);--ant-text:#eef6ff;--ant-overlay:rgba(1,3,6,0.8);--ant-shadow:0 8px 22px rgba(0,0,0,0.6)}}
+
+

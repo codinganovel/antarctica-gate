@@ -21,6 +21,7 @@
   "sideEffects": true,
   "files": [
     "antarctica-gate.js",
+    "antarctica-gate.css",
     "readme.md",
     "LICENSE.md"
   ],
