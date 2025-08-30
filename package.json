@@ -1,6 +1,6 @@
 {
   "name": "antarctica-gate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tiny satirical JS popup: Are you in Antarctica? None of the Online Safety Acts apply there.",
   "main": "antarctica-gate.js",
   "browser": "antarctica-gate.js",
